@@ -1,0 +1,84 @@
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  margin-bottom: 40px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.url {
+  font-size: 16px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  text-align: justify;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.url:hover {
+  white-space: normal;
+  title: attr(data-full-url);
+}
+
+.types,
+.topics,
+.levels {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.pageButton {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #333;
+  cursor: pointer;
+ font-size: 16px;
+  margin-right: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.pageButton:hover {
+  background-color: #f2f2f2;
+}
+
+.activePageButton {
+  background-color: #0070f3;
+  border-color: #0070f3;
+  color: #fff;
+}
+
+.activePageButton:hover {
+  background-color: #0060bf;
+  border-color: #0060bf;
+}
