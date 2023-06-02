@@ -3,12 +3,16 @@ import Sidebar from '../../components/Sidebar/Sidebar';
 import CodingResources from '../../components/CodingResources/CodingResources';
 import styles from '../../styles/Resources.module.css'
 import '../../styles/global.css';
+import Head from 'next/head';
 
 // if we navigate to localhost:3000/blog/123...
 export default function Resources() {
   const router = useRouter()
   return (
     <div className={styles.container}>
+      <Head>
+        <title>Coding Resources</title>
+      </Head>
       <Sidebar />
       <CodingResources />
     </div>
