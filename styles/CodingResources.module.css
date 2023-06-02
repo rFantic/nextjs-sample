@@ -1,8 +1,9 @@
 .container {
   overflow: auto;
-  max-width: 80%;
+  width: 800px;
+  padding: 20px;
+  padding-left: 175px;
   margin: 0 auto;
-  padding: 40px;
 }
 
 .title {
@@ -41,7 +42,6 @@
 
 .url:hover {
   white-space: normal;
-  title: attr(data-full-url);
 }
 
 .types,

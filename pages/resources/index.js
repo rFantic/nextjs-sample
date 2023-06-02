@@ -2,6 +2,7 @@ import { useRouter } from 'next/router'
 import Sidebar from '../../components/Sidebar/Sidebar';
 import CodingResources from '../../components/CodingResources/CodingResources';
 import styles from '../../styles/Resources.module.css'
+import '../../styles/global.css';
 
 // if we navigate to localhost:3000/blog/123...
 export default function Resources() {
